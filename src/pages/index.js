@@ -6,6 +6,7 @@ import SEO from "../components/seo";
 // import "./index.css";
 
 import CoverPage from "../components/coverpage"
+// import Footer from "../components/footer"
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,7 @@ const IndexPage = () => (
         </div>
         <Link to="/blogposts/">View all posts</Link>
       </div>
+      {/* <Footer /> */}
     </div>
   </Layout>
 );
