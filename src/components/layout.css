@@ -1,9 +1,15 @@
+body {
+    all: unset;
+}
+
 .cover-page {
     background: url("../images/coverpage-bg.jpg") center center no-repeat;
     background-size: cover;   
     text-align: center;
-    height: 100vh;
+    height: 55vh;
     width: auto;
-    
+
+    z-index: 200;
+
     box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
 }
