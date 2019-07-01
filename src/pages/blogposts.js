@@ -11,13 +11,13 @@ const BlogPosts = ({ data }) => {
     <Layout>
       <SEO title="Blog posts" />
       <h1>{"Here's a list of all blogposts!"}</h1>
-      <div className="blogposts">
+      <div>
         {blogPosts.map(({ node: post }) => (
           <div key={post.id}>
             <Link to={`/blogpost/${post.slug}`}>{post.title}</Link>
           </div>
         ))}
-        <span className="mgBtm__24" />
+        <span/>
         <Link to="/">Go back to the homepage</Link>
       </div>
     </Layout>
