@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 import Layout from "../components/layout";
-import Image from "../components/image";
+// import Image from "../components/image";
 import SEO from "../components/seo";
 // import "./index.css";
 
@@ -14,7 +14,7 @@ const IndexPage = () => (
       <p>Welcome to my awesome blog</p>
       <div>
         <div>
-          <Image />
+          {/* <Image /> */}
         </div>
       </div>
       <Link to="/blogposts/">View all posts</Link>
