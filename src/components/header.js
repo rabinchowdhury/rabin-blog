@@ -14,8 +14,8 @@ import {
 const Header = ({ siteTitle }) => (
   <header>
     <div>
-      <Navbar scrolling dark expand="md" fixed="top">
-      <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+      <Navbar variant="dark" expand="md" sticky="top">
+      <Navbar.Brand href="/">Duct Tape Startup</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">

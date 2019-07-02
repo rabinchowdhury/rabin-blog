@@ -7,8 +7,8 @@ class CoverPage extends Component {
         return (
             <div className="cover-page">
                 <div className="cover-text">
-                    <h3>Hello, I'm Rabin.</h3>
-                    <h5>I help busy business owners build affordable web-based applications quickly so that they can focus on running their business.</h5>
+                    <h3><b>We're Duct Tape Startup.</b></h3>
+                    <h4>We help busy entrepreneurs build affordable web-based applications quickly so that they can focus on running their business.</h4>
                     <button className="cover-button"><a href="/blogposts/">Read More</a></button>
                 </div>
             </div>
