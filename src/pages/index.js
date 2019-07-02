@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -20,7 +19,6 @@ const IndexPage = () => (
         <p>Welcome to my awesome blog</p>
       </div>
       <div className="three">
-        <Link to="/blogposts/">View all posts</Link>
       </div>
       <div className="four">
         {/* <Footer /> */}
