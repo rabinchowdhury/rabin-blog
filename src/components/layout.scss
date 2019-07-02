@@ -2,23 +2,51 @@ body {
     all: unset;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.2fr 0.2fr;
+    grid-template-areas: "one one one one" "two two two two" "three three three three";
+  }
+  .one {
+    grid-area: one; 
+  }
+  .two { 
+    grid-area: two;
+    text-align: center;
+    padding-top: 2%;
+  }
+  .three {
+    grid-area: three;
+
+    margin: 0px 2% 2% 2%;
+
+    box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+
+    background-color: #e7eff9;
+    background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+  }
+
 .cover-page {
     background: url("../images/coverpage-bg.jpg") center center no-repeat;
     background-size: cover;   
     text-align: center;
-    height: 55vh;
+    height: 100vh;
     width: auto;
 
-    z-index: 200;
+    // z-index: 200;
 
     box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
 }
 
-.footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
+.cover-text {
+    color: #FF5722;
     text-align: center;
+    padding-top: 300px;
 }
+
+.footer {
+    background-color: #e7eff9;
+    background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+}
+

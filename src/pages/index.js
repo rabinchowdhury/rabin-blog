@@ -11,18 +11,20 @@ import CoverPage from "../components/coverpage"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <div>
-      <CoverPage />
-      <div>
+    <div className="wrapper">
+      <div className="one">
+        <CoverPage />
+      </div>
+      <div className="two">
         <h1>Hello There</h1>
         <p>Welcome to my awesome blog</p>
-        <div>
-          <div>
-          </div>
-        </div>
+      </div>
+      <div className="three">
         <Link to="/blogposts/">View all posts</Link>
       </div>
-      {/* <Footer /> */}
+      <div className="four">
+        {/* <Footer /> */}
+      </div>
     </div>
   </Layout>
 );
