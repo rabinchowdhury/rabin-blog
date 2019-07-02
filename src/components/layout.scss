@@ -15,16 +15,17 @@ body {
     grid-area: two;
     text-align: center;
     padding-top: 2%;
-  }
-  .three {
-    grid-area: three;
 
-    margin: 0px 2% 2% 2%;
+    margin: 2% 2% 2% 2%;
 
     box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
 
     background-color: #e7eff9;
     background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+  }
+  .three {
+    grid-area: three;
+    text-align: center;
   }
 
 .cover-page {
