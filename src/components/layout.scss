@@ -3,30 +3,30 @@ body {
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.2fr 0.2fr;
-    grid-template-areas: "one one one one" "two two two two" "three three three three";
-  }
-  .one {
-    grid-area: one; 
-  }
-  .two { 
-    grid-area: two;
-    text-align: center;
-    padding-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.2fr 0.2fr;
+  grid-template-areas: "one one one one" "two two two two" "three three three three";
+}
+.one {
+  grid-area: one; 
+}
+.two { 
+  grid-area: two;
+  text-align: center;
+  padding-top: 2%;
 
-    margin: 2% 2% 2% 2%;
+  margin: 2% 2% 2% 2%;
 
-    box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
 
-    background-color: #e7eff9;
-    background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
-  }
-  .three {
-    grid-area: three;
-    text-align: center;
-  }
+  background-color: #e7eff9;
+  background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+}
+.three {
+  grid-area: three;
+  text-align: center;
+}
 
 .cover-page {
     background: url("../images/coverpage-bg.jpg") center center no-repeat;
@@ -41,7 +41,7 @@ body {
 .cover-text {
   color: #FF5722;
   text-align: center;
-  text-shadow: 1px 1px #000000;
+  text-shadow: 0.5px 0.5px #000000;
   padding: 0 15px 0px 15px;
   padding-top: 35% !important;
 }
@@ -90,4 +90,48 @@ body {
 .navbar-default {
   background-color: #fc9842;
   background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+}
+
+footer {
+  padding: 10px;
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.blog-post__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.2fr 0.2fr;
+  grid-template-areas: "one one one one" "two two two two" "three three three three";
+  text-align: center;
+}
+.blog-post__wrapper--one {
+  grid-area: one; 
+
+  background: url("../images/coverpage-bg-02.jpg") center center no-repeat;
+  background-size: cover;   
+  text-align: center;
+  height: 50vh;
+  width: auto;
+
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+}
+.blog-post__wrapper--two { 
+  grid-area: two;
+  padding-top: 5%;
+  color: #303F9F;
+}
+.blog-post__wrapper--three {
+  grid-area: three;
+  margin: 5%;
+  padding: 5%;
+
+  border-radius: 20px;
+
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+
+  background-color: #e7eff9;
+  background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
 }
