@@ -29,7 +29,7 @@ body {
 }
 
 .cover-page {
-    background: url("../images/coverpage-bg.jpg") center center no-repeat;
+    background: url("../images/coverpage-bg.jpg") center no-repeat fixed;
     background-size: cover;   
     text-align: center;
     height: 100vh;
@@ -42,7 +42,7 @@ body {
   color: #FF5722;
   text-align: center;
   text-shadow: 0.5px 0.5px #000000;
-  padding: 0 15px 0px 15px;
+  padding: 0 5% 0px 5%;
   padding-top: 35% !important;
 }
 
@@ -105,33 +105,91 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 0.2fr 0.2fr;
   grid-template-areas: "one one one one" "two two two two" "three three three three";
-  text-align: center;
+  text-align: center; 
 }
 .blog-post__wrapper--one {
   grid-area: one; 
 
-  background: url("../images/coverpage-bg-02.jpg") center center no-repeat;
+  background: url("../images/coverpage-bg-02.jpg") center no-repeat;
   background-size: cover;   
   text-align: center;
   height: 50vh;
   width: auto;
-
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
 }
 .blog-post__wrapper--two { 
   grid-area: two;
-  padding-top: 5%;
-  color: #303F9F;
-}
-.blog-post__wrapper--three {
-  grid-area: three;
-  margin: 5%;
+  margin: -5% 5% 0 5%;
   padding: 5%;
-
   border-radius: 20px;
-
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
 
   background-color: #e7eff9;
   background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
 }
+.blog-post__wrapper--three {
+  grid-area: three;
+}
+
+.blog-post__text {
+  font-size: 1.2em;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.blog-post__list {
+  background-color: #06bcfb;
+  background-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
+
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 25px;
+  margin: 2%;
+  // border-radius: 4px;
+  // cursor: pointer;
+  outline: none;
+  text-decoration: none !important;
+  // letter-spacing: 0.5px;
+  color: #fff;
+
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  /* unvisited link */ a:link {
+  text-decoration:none;
+  color: #fff;
+  } /* visited link */ a:visited {
+  text-decoration:none;
+  color: #fff;
+  } /* mouse over link */
+  a:hover {
+    text-decoration:none;
+    color: #fff; } /* selected link */ 
+  a:active {
+    text-decoration:none;
+    color: #fff;
+  }
+}
+
+
+.profile {
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: .5px;
+  background:#fff;
+  width: 80%;
+  margin:0 auto;
+  padding: 4%;
+  margin-top: 40px;
+  margin-bottom:5 0px;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  background-color: #aee1f9;
+  background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+
+}
+
+
+

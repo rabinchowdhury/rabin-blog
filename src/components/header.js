@@ -15,13 +15,13 @@ const Header = ({ siteTitle }) => (
   <header>
     <div>
       <Navbar variant="dark" expand="md" sticky="top">
-      <Navbar.Brand href="/">Duct Tape Startup</Navbar.Brand>
+      <Navbar.Brand href="/"><b>Duct Tape Startup</b></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/blogposts">Posts</Nav.Link>
-          <Nav.Link href="/about">About Me</Nav.Link>
+          <Nav.Link href="/blogposts">Blog Posts</Nav.Link>
+          <Nav.Link href="/about">About Us</Nav.Link>
           {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

@@ -15,12 +15,14 @@ const BlogPosts = ({ data }) => {
         </div>
         <SEO title="Blog posts" />
         <div className="blog-post__wrapper--two">
-          <h3>{"Read the latest blog posts here!"}</h3>
+          <h3>{"Latest blog posts!"}</h3>
         </div>
         <div className="blog-post__wrapper--three">
+            <div className=""></div>
             {blogPosts.map(({ node: post }) => (
               <div key={post.id}>
-                <Link to={`/blogpost/${post.slug}`}>{post.title}</Link>
+                {/* <button className="blog-post__list"><Link to={`/blogpost/${post.slug}`}>{post.title}</Link></button> */}
+                <div className="blog-post__list"><a href={`/blogpost/${post.slug}`}>{post.title}</a></div>
               </div>
             ))}
             <span/>
