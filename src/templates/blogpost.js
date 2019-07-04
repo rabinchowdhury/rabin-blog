@@ -8,12 +8,12 @@ const BlogPost = ({ data }) => {
   return (
     <Layout>
       <SEO title={title} />
-      <div>
+      <div className="blogpost">
         <h1>{title}</h1>
         <img alt={title} src={image.file.url} />
-        <div>
+        <div className="tags">
           {tags.map(tag => (
-            <span key={tag}>
+            <span className="tag" key={tag}>
               {tag}
             </span>
           ))}
