@@ -15,7 +15,7 @@ const BlogPosts = ({ data }) => {
         </div>
         <SEO title="Blog posts" />
         <div className="blog-post__wrapper--two">
-          <h3>{"Latest Blog Posts!"}</h3>
+          <h4>{"Latest Blog Posts!"}</h4>
         </div>
         <div className="blog-post__wrapper--three">
             <div className=""></div>

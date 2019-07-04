@@ -8,8 +8,7 @@ const BlogPost = ({ data }) => {
   return (
     <Layout>
       <SEO title={title} />
-      <div className="blogpost">
-        <h1>{title}</h1>
+      <div className="blogpost container">
         <img alt={title} src={image.file.url} />
         <div className="tags">
           {tags.map(tag => (
@@ -18,8 +17,9 @@ const BlogPost = ({ data }) => {
             </span>
           ))}
         </div>
+        <h3>{title}</h3>
         <p>{body.body}</p>
-        <Link to="/blogposts">View more posts</Link>
+        <Link to="/blogposts"><b>View More Posts</b></Link>
         <Link to="/">Back to Home</Link>
       </div>
     </Layout>

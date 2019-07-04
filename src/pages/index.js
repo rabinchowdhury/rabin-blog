@@ -15,7 +15,7 @@ const IndexPage = () => (
         <CoverPage />
       </div>
       <div className="two">
-        <h1>Hello There</h1>
+        <h4>Hello There</h4>
         <p>Welcome to my awesome blog</p>
       </div>
       <div className="three">
