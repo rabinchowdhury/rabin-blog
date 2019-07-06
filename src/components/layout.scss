@@ -44,7 +44,7 @@ html, body {
   color: #ff5722;
   text-align: center;
   text-shadow: 0.5px 0.5px #000000;
-  padding: 35% 5% 0px 5%;
+  padding: 15% 5% 0px 5%;
 }
 
 .cover-button {
@@ -55,7 +55,7 @@ html, body {
   text-align: center;
   font-size: 20px;
   padding: 10px 25px;
-  margin-top: 45%;
+  margin-top: 28%;
   border-radius: 4px;
   // cursor: pointer;
   outline: none;
@@ -105,7 +105,7 @@ html, body {
 }
 .blog-post__wrapper--two { 
   grid-area: two;
-  margin: -5% 5% 0 5%;
+  margin: -5% 5% 5% 5%;
   padding: 5%;
   border-radius: 20px;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
@@ -115,6 +115,7 @@ html, body {
 }
 .blog-post__wrapper--three {
   grid-area: three;
+  margin: 0 5% 5% 5%;
 }
 
 .blog-post__text {
@@ -262,10 +263,11 @@ img {
 
   color: #ffffff;
 
-  padding: 2%;
+  padding: 1%;
   text-decoration: none;
   text-align: center;
 
   background-color: #fc9842;
   background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
 } 
+

@@ -10,7 +10,7 @@ class About extends Component {
       <Layout>
         <div className="container">
           <div className="profile">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus harum vel accusamus aliquid assumenda incidunt, accusantium porro mollitia nostrum repellendus ut doloribus! Autem quae necessitatibus aut pariatur obcaecati accusamus ad!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus harum vel accusamus aliquid assumenda incidunt, accusantium porro mollitia nostrum repellendus ut doloribus! Autem quae necessitatibus aut pariatur obcaecati accusamus!</p>
           </div>
         </div>
       </Layout>
