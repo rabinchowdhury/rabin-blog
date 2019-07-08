@@ -11,7 +11,6 @@ const BlogPosts = ({ data }) => {
     <Layout>
       <div className="blog-post__wrapper">
         <div className="blog-post__wrapper--one">
-          {/* IMAGE */}
         </div>
         <SEO title="Blog posts" />
         <div className="blog-post__wrapper--two">

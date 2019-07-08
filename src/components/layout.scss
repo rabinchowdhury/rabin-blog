@@ -96,18 +96,22 @@ html, body {
 .blog-post__wrapper--one {
   grid-area: one; 
 
-  background: url("../images/coverpage-bg-02.jpg") center no-repeat;
+  // background: url("../images/coverpage-bg-02.jpg") center no-repeat;
   background-size: cover;   
   text-align: center;
-  height: 50vh;
+  height: 40vh;
   width: auto;
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  // box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+
+  background-color: #fc9842;
+  background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
 }
+
 .blog-post__wrapper--two { 
   grid-area: two;
   margin: -5% 5% 5% 5%;
   padding: 5%;
-  border-radius: 20px;
+  border-radius: 30px;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
   
   background-color: #e7eff9;
@@ -133,7 +137,7 @@ html, body {
   font-size: 20px;
   padding: 10px 25px;
   margin: 2% 20% 0% 20%;
-  // border-radius: 4px;
+  border-radius: 4px;
   // cursor: pointer;
   outline: none;
   text-decoration: none !important;
@@ -270,4 +274,5 @@ img {
   background-color: #fc9842;
   background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
 } 
+
 
